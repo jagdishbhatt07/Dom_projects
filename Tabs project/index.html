@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs project</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="section">
+        <div class="title">
+            <h2>about</h2>
+            <p>
+                At [Polcode.], we're more than just developers—we're problem solvers, innovators, and creators. With
+                a passion for coding and a commitment to excellence, our team transforms ideas into reality. Every line
+                of code we write is a step forward, fueled by a desire to make a difference and drive positive change.
+                From crafting elegant solutions to tackling complex challenges, we thrive on the journey of software
+                development. Together, we embrace the ever-evolving world of technology, always pushing boundaries and
+                striving for greatness.
+            </p>
+        </div>
+
+        <div class="about-center section-center">
+            <article class="about-img">
+                <img src="./img.jpeg" alt="" />
+            </article>
+            <article class="about">
+                <!-- btn container -->
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="history">history</button>
+                    <button class="tab-btn" data-id="vision">vision</button>
+                    <button class="tab-btn" data-id="goals">goals</button>
+                </div>
+                <div class="about-content">
+                    <!-- single item -->
+                    <div class="content active" id="history">
+                        <h4>history</h4>
+                        <p>
+                            The earliest noted adventures of humans with coding take us back to 60 A.D. Heron of
+                            Alexander was a Greek mathematician and engineer. He invented the machine that was used to
+                            control puppets with the help of strings. The machine could be reprogrammed by rearranging
+                            the strings to make the puppets do different things.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="vision">
+                        <h4>vision</h4>
+                        <p>
+                            Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth
+                            crucifix offal deep v hella biodiesel. Church-key listicle
+                            polaroid put a bird on it chillwave palo santo enamel pin,
+                          
+                        </p>
+                        <ul>
+                            <li>list item</li>
+                            <li>list item</li>
+                            <li>list item</li>
+                        </ul>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="goals">
+                        <h4>goals</h4>
+                        <p>
+                            Software developers design, program, build, deploy and maintain software using many
+                            different skills and tools. They also help build software systems that power networks and
+                            devices and ensure that those systems remain functional.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
